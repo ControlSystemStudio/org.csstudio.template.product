@@ -29,9 +29,9 @@
                     </formats>
                     <products>
                         <product>
-                            <id>cs-studio-template</id>
+                            <id>${product.name}</id>
                             <rootFolder>cs-studio</rootFolder>
-                            <archiveFileName>cs-studio-template-${template.version}</archiveFileName>
+                            <archiveFileName>${product.name}-${product.version}</archiveFileName>
                         </product>
                     </products>
                 </configuration>

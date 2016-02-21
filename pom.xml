@@ -29,6 +29,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jgit.dirtyWorkingTree>error</jgit.dirtyWorkingTree>
         <baselineMode>fail</baselineMode>
+	<product.name>cs-studio-template</product.name>
+	<product.version>${cs-studio.version}.0</product.version>
     </properties>
 
     <!-- PLUGIN REPOSITORIES -->
