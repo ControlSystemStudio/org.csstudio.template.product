@@ -3,6 +3,7 @@ import fileinput
 from sets import Set
 from xml.dom import minidom
 
+# The python script is not complete, please use the bash script css_refactor.sh
 
 g_textToSearch="template"
 g_textToReplace="han"
